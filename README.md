@@ -91,3 +91,4 @@ mvn spring-boot:start
 - The application is currently using an in-memory sql database, wrapped with Spring Data and JPA. With more time, I would probably have opted for a relational db, like Postgres, simply because I am more familiar with it than other types of databases (like document dbs, etc)
 - In a proper setting, I would have implemented both unit tests and api-level tests to verify the functionality. Time constraints meant I decided to prioritise the implementation, since I thought I would give you more information about how I structure my code
 - I decided to couple notification of the brand on users getting discounts loosely, by letting the CustomerDiscount domain service define an interface whose implementors are called when a discount is fetched, without the customer discount domain having to know who wants to do what with that information.
+- Had I had more time, I would have liked to have made a docker image of the application to make it easier to run
