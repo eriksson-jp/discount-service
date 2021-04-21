@@ -83,7 +83,7 @@ I've implemented the api in kotlin, with a small spring boot app. It requires ja
 
 In order to compile and run it, run the following command from the folder containing `pom.xml`:
 ```shell
-mvn spring-boot:start
+mvn spring-boot:run
 ```
 
 ## Other notes
